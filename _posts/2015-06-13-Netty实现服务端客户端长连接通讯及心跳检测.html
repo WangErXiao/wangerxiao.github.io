@@ -1,0 +1,18 @@
+---
+published: false
+---
+
+
+
+    通过netty实现服务端与客户端的长连接通讯，及心跳检测。
+
+    基本思路：netty服务端通过一个Map保存所有连接上来的客户端SocketChannel,客户端的Id作为Map的key。每次服务器端如果要向某个客户端发送消息，只需根据ClientId取出对应的SocketChannel,往里面写入message即可。心跳检测通过IdleEvent事件，定时向服务端放送Ping消息，检测SocketChannel是否终断。
+
+        环境JDK1.8 和netty5
+
+        以下是具体的代码实现和介绍：
+
+1公共的Share部分(主要包含消息协议类型的定义)
+
+     设计消息类型：
+     
