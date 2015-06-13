@@ -15,3 +15,5 @@ do
   redis-cli DEBUG OBJECT "$line" | awk '{ print $4":"$5 }'
 done | awk -F ':' '{counter[$2]+=$4; } END{ for ( i in counter ) print ( i,":" ,counter[i])} '
 `
+
+<p>{{ page.date | date_to_string }}</p>
