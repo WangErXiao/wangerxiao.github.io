@@ -1,5 +1,16 @@
 ---
-layout:default
+layout: default
 ---
-<h1>Hello World<h1>
+  <header>
+      <div class="container">
+          <h1>Robin Blog
+          <a href="https://github.com/WangErXiao" class="btn btn-github"><span class="icon"></span>GitHub</a>
+          </h1>
+      </div>
+    </header>
 <p>My post list:</p>
+　<ul>
+　　　　{% for post in site.posts %}
+　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　　　{% endfor %}
+　</ul>
