@@ -1,0 +1,16 @@
+---
+published: false
+---
+
+
+
+	**本文参照 火丁笔记 的  如何统计Redis中各种数据的大小  ，该文章用php 和redis自带的 scan 和 debug信息来统计redis内存中各种数据结构（raw ,ziplist ,embstr等 ）相对大小（序列化后的value 长度）。**
+
+    **下面是本人通过shell ，利用redis-cli 和 debug 写的一个小脚本，来统计redis中各数据结构的相对大小**
+  
+`#!/bin/bash
+redis-cli --scan |  while read line
+do
+  redis-cli DEBUG OBJECT "$line" | awk '{ print $4":"$5 }'
+done | awk -F ':' '{counter[$2]+=$4; } END{ for ( i in counter ) print ( i,":" ,counter[i])} '
+`
