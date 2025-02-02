@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
@@ -29,6 +29,11 @@ permalink: /about/
 ![vLLM](https://img.shields.io/badge/vLLM-Efficient%20LLM%20Inference-FFA500?logo=python&logoColor=white)
 <br>
 
+### GitHub Statistics 
+<div>
+  <img height="165" align="left" src="https://github-readme-stats.vercel.app/api?username=WangErXiao&count_private=true&include_all_commits=true&show_icons=true&theme=transparent" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WangErXiao&layout=compact&theme=transparent" />
+</div>
 
 ### Contact Me 
 #### WeChat
