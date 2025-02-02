@@ -35,6 +35,5 @@ permalink: /about/
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WangErXiao&layout=compact&theme=transparent" />
 </div>
 
-### Contact Me 
-#### WeChat
+### Contact Me
 ![WeChat](https://github.com/WangErXiao/WangErXiao/blob/main/images/Wechat.png?raw=true)
