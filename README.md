@@ -15,13 +15,7 @@ permalink: /about/
 - Easy to customize.
 - Offers category menu.
 
-### _config.yml
-> Code block will look like this.
-```yml
-highlighter-theme: monokai //you can change your syntax color scheme.
-date_format: "%Y-%M-%D" //and date format.
-```
 
 ### Contact Me 
 #### WeChat
-![WeChat](https://gitee.com/yzb/wangerxiao/raw/main/Wechat.png)
+![WeChat](https://github.com/WangErXiao/WangErXiao/blob/main/images/Wechat.png?raw=true)
