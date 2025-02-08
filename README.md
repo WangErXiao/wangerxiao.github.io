@@ -6,8 +6,8 @@ permalink: /about/
 
 <style>
   .hero-section {
-    width: 90%;
-    height: 350px;
+    width: 100%;
+    height: 300px;
     background-image: url('/public/img/children.png');
     background-size: cover;
     background-position: center;
