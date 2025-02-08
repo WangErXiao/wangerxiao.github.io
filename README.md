@@ -7,7 +7,7 @@ permalink: /about/
 <style>
   .hero-section {
     width: 100%;
-    height: 300px;
+    height: 300px; /* 必须指定高度 */
     background-image: url('/public/img/children.png');
     background-size: cover;
     background-position: center;
@@ -15,16 +15,27 @@ permalink: /about/
     padding: 40px;
     color: white;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    /* 新增 Flex 布局 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* 内容垂直靠下 */
+    position: relative; /* 为图片定位做准备 */
+  }
+
+  /* 将右上角的图片固定到角落 */
+  .hero-section img {
+    position: absolute;
+    top: 40px;  /* 与父容器的 padding 一致 */
+    right: 40px; /* 与父容器的 padding 一致 */
   }
 </style>
 
 <div class="hero-section">
-👋 Hi, I'm Robin! <img align="right" src="https://komarev.com/ghpvc/?username=WangErXiao" alt="Robin" /><br>
-💻 A programmer<br>
-🌱 Currently learning large model technology<br>
-
-💡 "Simplicity is the soul of efficiency." – Austin Freeman
-
+  <img align="right" src="https://komarev.com/ghpvc/?username=WangErXiao" alt="Robin" />
+  👋 Hi, I'm Robin! <br>
+  💻 A programmer<br>
+  🌱 Currently learning large model technology<br>
+  💡 "Simplicity is the soul of efficiency." – Austin Freeman
 </div>
 
 ---
