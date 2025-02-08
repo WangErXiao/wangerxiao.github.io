@@ -8,7 +8,7 @@ permalink: /about/
   .hero-section {
     width: 100%;
     height: 400px;
-    background-image: url('./public/img/good.png');
+    background-image: url('./children.png');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
