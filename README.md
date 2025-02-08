@@ -7,7 +7,7 @@ permalink: /about/
 <style>
   .hero-section {
     width: 100%;
-    height: 300px; /* 必须指定高度 */
+    height: 400px; /* 必须指定高度 */
     background-image: url('/public/img/children.png');
     background-size: cover;
     background-position: center;
