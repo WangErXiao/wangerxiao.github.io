@@ -4,6 +4,27 @@ title: About Me
 permalink: /about/
 ---
 
+<style>
+  .hero-section {
+    width: 100%;
+    height: 400px;
+    background-image: url('./public/img/good.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 40px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+</style>
+
+<div class="hero-section">
+  ## 欢迎来到我的项目！
+  这是一个带有背景图片的 Markdown Div。
+</div>
+
+---
+
 👋 Hi, I'm Robin! <img align="right" src="https://komarev.com/ghpvc/?username=WangErXiao" alt="Robin" /><br>
 💻 A programmer<br>
 🌱 Currently learning large model technology<br>
