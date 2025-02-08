@@ -19,17 +19,13 @@ permalink: /about/
 </style>
 
 <div class="hero-section">
-  ## 欢迎来到我的项目！
-  这是一个带有背景图片的 Markdown Div。
-</div>
-
----
-
 👋 Hi, I'm Robin! <img align="right" src="https://komarev.com/ghpvc/?username=WangErXiao" alt="Robin" /><br>
 💻 A programmer<br>
 🌱 Currently learning large model technology<br>
 
 💡 "Simplicity is the soul of efficiency." – Austin Freeman
+
+</div>
 
 ---
 
